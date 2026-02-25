@@ -1,0 +1,33 @@
+{
+    "_version": "1.65.0",
+    "sap.app": {
+        "id": "sap.btp.ui5lib",
+        "type": "library",
+        "i18n": "i18n/i18n.properties",
+        "title": "{{title}}",
+        "applicationVersion": {
+            "version": "0.0.2"
+        },
+        "embeds": [
+            "comp/reuse"
+        ]
+    },
+    "sap.ui5": {
+        "dependencies": {
+            "minUI5Version": "1.95.0",
+            "libs": {
+                "sap.ui.core": {},
+                "sap.m": {},
+                "sap.f": {}
+            }
+        },
+        "contentDensities": {
+            "compact": true,
+            "cozy": true
+        }
+    },
+    "sap.cloud": {
+        "public": true,
+        "service": "csc.ui5lib"
+    }
+}

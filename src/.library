@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<library xmlns="http://www.sap.com/sap.ui.library.xsd">
+    <name>sap.btp.ui5lib</name>
+    <vendor>CSC</vendor>
+    <version>0.0.2</version>
+    <copyright>CSC</copyright>
+    <title>CSC UI5 Library</title>
+    <documentation></documentation>
+	<dependencies>
+		<dependency>
+			<libraryName>sap.ui.core</libraryName>
+		</dependency>
+	</dependencies>
+</library>
